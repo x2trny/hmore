@@ -13,7 +13,7 @@ void myMonster(char *msg)
 int main()
 {
     std::cout << "Git merge testi 24.06.23 Kurban Bayram tatili basladi.!\n";
-    char msg[]  = "deneme mesaj-1";
+    char msg[]  = "deneme mesaj-1?";
     char msg2[] = "deneme mesaj-2";
     myAsus(msg);
     myMonster(msg2);
