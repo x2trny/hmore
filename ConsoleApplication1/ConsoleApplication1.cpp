@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+const char dt[] = "28.06.2023 22:28";
 void myAsus(char *msg)
 {
     printf("%-20s- %s\r\n", __FUNCTION__, msg);
@@ -13,7 +14,7 @@ void myMonster(char *msg)
 int main()
 {
     std::cout << "Git merge testi 24.06.23 Kurban Bayram tatili basladi.!\n";
-    char msg[]  = "deneme mesaj-1?";
+    char msg[]  = "deneme mesaj-1";
     char msg2[] = "deneme mesaj-2";
     myAsus(msg);
     myMonster(msg2);

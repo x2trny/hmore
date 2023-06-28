@@ -1,0 +1,49 @@
+[1mdiff --git a/.vs/ConsoleApplication1/FileContentIndex/91d9acdb-05b4-4b05-ad5b-f4ab79881e10.vsidx b/.vs/ConsoleApplication1/FileContentIndex/91d9acdb-05b4-4b05-ad5b-f4ab79881e10.vsidx[m
+[1mdeleted file mode 100644[m
+[1mindex 826db5a..0000000[m
+Binary files a/.vs/ConsoleApplication1/FileContentIndex/91d9acdb-05b4-4b05-ad5b-f4ab79881e10.vsidx and /dev/null differ
+[1mdiff --git a/.vs/ConsoleApplication1/v17/.suo b/.vs/ConsoleApplication1/v17/.suo[m
+[1mindex ceac3fc..8fc253b 100644[m
+Binary files a/.vs/ConsoleApplication1/v17/.suo and b/.vs/ConsoleApplication1/v17/.suo differ
+[1mdiff --git a/.vs/ConsoleApplication1/v17/Browse.VC.db b/.vs/ConsoleApplication1/v17/Browse.VC.db[m
+[1mindex 61f5872..7607994 100644[m
+Binary files a/.vs/ConsoleApplication1/v17/Browse.VC.db and b/.vs/ConsoleApplication1/v17/Browse.VC.db differ
+[1mdiff --git a/ConsoleApplication1/ConsoleApplication1.cpp b/ConsoleApplication1/ConsoleApplication1.cpp[m
+[1mindex c483dc7..9f87293 100644[m
+[1m--- a/ConsoleApplication1/ConsoleApplication1.cpp[m
+[1m+++ b/ConsoleApplication1/ConsoleApplication1.cpp[m
+[36m@@ -2,6 +2,7 @@[m
+ //[m
+ [m
+ #include <iostream>[m
+[32m+[m[32mconst char dt[] = "28.06.2023 22:28";[m
+ void myAsus(char *msg)[m
+ {[m
+     printf("%-20s- %s\r\n", __FUNCTION__, msg);[m
+[36m@@ -13,7 +14,7 @@[m [mvoid myMonster(char *msg)[m
+ int main()[m
+ {[m
+     std::cout << "Git merge testi 24.06.23 Kurban Bayram tatili basladi.!\n";[m
+[31m-    char msg[]  = "deneme mesaj-1?";[m
+[32m+[m[32m    char msg[]  = "deneme mesaj-1";[m
+     char msg2[] = "deneme mesaj-2";[m
+     myAsus(msg);[m
+     myMonster(msg2);[m
+[1mdiff --git a/ConsoleApplication1/x64/Debug/ConsoleApplication1.ilk b/ConsoleApplication1/x64/Debug/ConsoleApplication1.ilk[m
+[1mindex 2d20dd5..db36d60 100644[m
+Binary files a/ConsoleApplication1/x64/Debug/ConsoleApplication1.ilk and b/ConsoleApplication1/x64/Debug/ConsoleApplication1.ilk differ
+[1mdiff --git a/ConsoleApplication1/x64/Debug/ConsoleApplication1.obj b/ConsoleApplication1/x64/Debug/ConsoleApplication1.obj[m
+[1mindex 8dd3f3d..4c91471 100644[m
+Binary files a/ConsoleApplication1/x64/Debug/ConsoleApplication1.obj and b/ConsoleApplication1/x64/Debug/ConsoleApplication1.obj differ
+[1mdiff --git a/ConsoleApplication1/x64/Debug/vc143.idb b/ConsoleApplication1/x64/Debug/vc143.idb[m
+[1mindex 94a36d2..a677a88 100644[m
+Binary files a/ConsoleApplication1/x64/Debug/vc143.idb and b/ConsoleApplication1/x64/Debug/vc143.idb differ
+[1mdiff --git a/ConsoleApplication1/x64/Debug/vc143.pdb b/ConsoleApplication1/x64/Debug/vc143.pdb[m
+[1mindex 6215a77..4a12536 100644[m
+Binary files a/ConsoleApplication1/x64/Debug/vc143.pdb and b/ConsoleApplication1/x64/Debug/vc143.pdb differ
+[1mdiff --git a/x64/Debug/ConsoleApplication1.exe b/x64/Debug/ConsoleApplication1.exe[m
+[1mindex 8a89a28..40dabff 100644[m
+Binary files a/x64/Debug/ConsoleApplication1.exe and b/x64/Debug/ConsoleApplication1.exe differ
+[1mdiff --git a/x64/Debug/ConsoleApplication1.pdb b/x64/Debug/ConsoleApplication1.pdb[m
+[1mindex 1afbf04..b556b2c 100644[m
+Binary files a/x64/Debug/ConsoleApplication1.pdb and b/x64/Debug/ConsoleApplication1.pdb differ
